@@ -2,7 +2,6 @@
 
 # dacite-soft
 
-[![Coverage Status](https://coveralls.io/repos/github/nikikuzi/dacite-soft/badge.svg?branch=master)](https://coveralls.io/github/nikikuzi/dacite-soft?branch=master)
 [![License](https://img.shields.io/pypi/l/dacite-soft.svg)](https://pypi.python.org/pypi/dacite-soft/)
 [![Version](https://img.shields.io/pypi/v/dacite-soft.svg)](https://pypi.python.org/pypi/dacite-soft/)
 [![Python versions](https://img.shields.io/pypi/pyversions/dacite-soft.svg)](https://pypi.python.org/pypi/dacite-soft/)
