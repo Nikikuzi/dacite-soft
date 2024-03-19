@@ -11,12 +11,12 @@ class DefaultValueNotFoundError(Exception):
     pass
 
 
-def get_default_value_for_field(field: Field, type_: Type) -> Any:
+def get_default_value_for_field(field: Field, type_: Type, allow_missing_fields: bool = False) -> Any:
     if field.default != MISSING:
         return field.default
     elif field.default_factory != MISSING:  # type: ignore
         return field.default_factory()  # type: ignore
-    elif is_optional(type_):
+    elif is_optional(type_) or allow_missing_fields:
         return None
     raise DefaultValueNotFoundError()
 

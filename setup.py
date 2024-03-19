@@ -1,14 +1,14 @@
 from setuptools import setup
 
 setup(
-    name="dacite",
-    version="1.8.1",
-    description="Simple creation of data classes from dictionaries.",
+    name="dacite-soft",
+    version="1.0.0",
+    description="Simple creation of data classes from dictionaries. Not failing on missed fields",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
-    author="Konrad Hałas",
-    author_email="halas.konrad@gmail.com",
-    url="https://github.com/konradhalas/dacite",
+    author="Mikita Kuzniatsou, Konrad Hałas",
+    author_email="nikikuzi@gmail.com, halas.konrad@gmail.com",
+    url="https://github.com/nikikuzi/dacite-soft",
     license="MIT",
     classifiers=[
         "Development Status :: 5 - Production/Stable",

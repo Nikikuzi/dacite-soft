@@ -69,7 +69,7 @@ def from_dict(data_class: Type[T], data: Data, config: Optional[Config] = None) 
                 raise WrongTypeError(field_path=field.name, field_type=field_type, value=value)
         else:
             try:
-                value = get_default_value_for_field(field, field_type)
+                value = get_default_value_for_field(field, field_type, config.allow_missing_fields)
             except DefaultValueNotFoundError:
                 if not field.init:
                     continue
