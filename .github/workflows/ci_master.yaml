@@ -9,7 +9,7 @@ jobs:
   ci:
     uses: ./.github/workflows/code_check.yaml
     secrets:
-      benchmark_token: ${{ secrets.BENCHMARK_TOKEN }}
+      benchmark_token: ${{ secrets.GITHUB_TOKEN }}
     with:
       publish_performance: true
       store_benchmark: true

@@ -1,8 +1,7 @@
 ![](https://user-images.githubusercontent.com/1078369/212840759-174c0f2b-d446-4c3a-b97c-67a0b912e7f6.png)
 
-# dacite
+# dacite-soft
 
-[![Build Status](https://travis-ci.org/konradhalas/dacite.svg?branch=master)](https://travis-ci.org/konradhalas/dacite)
 [![Coverage Status](https://coveralls.io/repos/github/konradhalas/dacite/badge.svg?branch=master)](https://coveralls.io/github/konradhalas/dacite?branch=master)
 [![License](https://img.shields.io/pypi/l/dacite.svg)](https://pypi.python.org/pypi/dacite/)
 [![Version](https://img.shields.io/pypi/v/dacite.svg)](https://pypi.python.org/pypi/dacite/)
